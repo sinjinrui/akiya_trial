@@ -1,1 +1,13 @@
-%h1.hello hello world
+.top-contents
+  = link_to "#", class: "top-content" do
+    %p#button1 空家を登録する
+  = link_to "#", class: "top-content" do
+    %p#button2 空家を探す
+
+.news
+  .news-title
+    %h1.news-title-text 新着情報
+  .news-contents
+    %p.news-address 栃木県〇〇市1-2-3 
+    = link_to "#" do
+      .news-image ここにslickで画像を入れる

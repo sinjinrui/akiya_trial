@@ -1,0 +1,39 @@
+@media screen and (max-width: 660px) {
+  a {
+    color: #000;
+  }
+
+  .header-wrapper {
+    height: 50px;
+  }
+  .header {
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #000;
+    &-text {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .header-right {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      height: 90%;
+    }
+    .menu-line {
+      background-color: #000;
+      height: 4px;
+      width: 30px;
+      margin-bottom: 4px;
+      border-radius: 3px;
+    }
+    #line1 {
+      margin-top: 6px;
+    }
+  }
+}
