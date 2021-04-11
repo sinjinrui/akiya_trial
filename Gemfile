@@ -56,3 +56,4 @@ gem "haml-rails", "~> 2.0"
 gem 'font-awesome-sass'
 gem 'dotenv-rails'
 gem 'pry-rails'
+gem 'dotenv-rails'

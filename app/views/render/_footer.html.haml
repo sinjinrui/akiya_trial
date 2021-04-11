@@ -1,8 +1,16 @@
 .footer
   .footer-contents
     = link_to '#', class: "footer-link" do
+      %p.footer-link-text トップページ
+      = icon("fas", "house-user", class: "footer-icon")
     = link_to '#', class: "footer-link" do
+      %p.footer-link-text 空家を探す
+      = icon("fas", "search", class: "footer-icon")
     = link_to '#', class: "footer-link" do
+      %p.footer-link-text 空家を登録
+      = icon("fas", "plus", class: "footer-icon")
     = link_to '#', class: "footer-link" do
+      %p.footer-link-text 設定
+      = icon("fas", "cog", class: "footer-icon")
 
 .footer-wrapper
